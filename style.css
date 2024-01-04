@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: sans-serif;
+}
+
+/* Dark mode */
+body {
+    color: #373737;
+    background: white;
+    transition: all .3s ease;
+}
+.dark-mode {
+    color: white;
+    background: #373737;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  background: none;
+  height: 40;
+  width: 40;
+}
