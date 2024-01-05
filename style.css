@@ -14,10 +14,13 @@ body {
     background: #373737;
 }
 
+p {
+  text-align: justify;
+}
+
 .btn {
-  border: none;
   cursor: pointer;
-  background: none;
   height: 40;
   width: 40;
+  float: right;
 }
