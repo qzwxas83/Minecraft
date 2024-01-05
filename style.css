@@ -18,9 +18,19 @@ p {
   text-align: justify;
 }
 
+img {
+  height: 40px;
+  width: 40px;
+}
+
 .btn {
   cursor: pointer;
-  height: 40;
-  width: 40;
   float: right;
+}
+
+.logo {
+  height: 110px;
+  width: 170px;
+  display: block; /* Зробити картинку блоковим елементом, щоб мати можливість використовувати margin:auto; */
+  margin: auto;    /* Автоматичний розподіл відступів, центрує по горизонталі */
 }
