@@ -19,7 +19,7 @@ function darkmode() {
 // Налаштування обробника події click для кнопки
 document.querySelector('.btn').addEventListener('click', darkmode);
 
-// Функція для застосування режиму теми при завантаженні сторінки
+// Функція для застосування режиму теми при перезавантаженні сторінки
 function onload() {
     const body = document.body;
     const isDarkmode = localStorage.getItem('darkmode') === 'true';
